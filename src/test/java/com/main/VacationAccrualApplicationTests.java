@@ -6,8 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class VacationAccrualApplicationTests {
 
-	@Test
-	void contextLoads() {
+//	@Test
+	public void test() {
+		String result = "hello";
+//		assertEquals(result, "hello");
+		System.out.println("hello");
 	}
 
 }
